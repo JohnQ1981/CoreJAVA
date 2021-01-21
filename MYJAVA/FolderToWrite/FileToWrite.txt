@@ -1,0 +1,34 @@
+Hello World
+Definitions: A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+ The class from which the subclass is derived 
+ is called a superclass (also a base class or a parent class).
+
+Excepting Object, which has no superclass, every class has one and only one direct superclass (single inheritance). 
+In the absence of any other explicit superclass, every class 
+ is implicitly a subclass of Object.
+
+Classes can be derived from classes that are derived from classes that are derived from classes, and so on,
+  and ultimately derived from the topmost class, Object. Such a class is 
+ said to be descended from all the classes in the inheritance chain stretching back to Object.Hello World
+Definitions: A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+ The class from which the subclass is derived 
+ is called a superclass (also a base class or a parent class).
+
+Excepting Object, which has no superclass, every class has one and only one direct superclass (single inheritance). 
+In the absence of any other explicit superclass, every class 
+ is implicitly a subclass of Object.
+
+Classes can be derived from classes that are derived from classes that are derived from classes, and so on,
+  and ultimately derived from the topmost class, Object. Such a class is 
+ said to be descended from all the classes in the inheritance chain stretching back to Object.Hello World
+Definitions: A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+ The class from which the subclass is derived 
+ is called a superclass (also a base class or a parent class).
+
+Excepting Object, which has no superclass, every class has one and only one direct superclass (single inheritance). 
+In the absence of any other explicit superclass, every class 
+ is implicitly a subclass of Object.
+
+Classes can be derived from classes that are derived from classes that are derived from classes, and so on,
+  and ultimately derived from the topmost class, Object. Such a class is 
+ said to be descended from all the classes in the inheritance chain stretching back to Object.
