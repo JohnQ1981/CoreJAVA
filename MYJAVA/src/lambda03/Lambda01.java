@@ -15,7 +15,7 @@ public class Lambda01 {
 		//		for(int i =0;i<arr.length;i++) {
 		//			list.add(arr[i]);
 		//		}
-		System.out.println(list);
+		System.out.println(list+"empty");
 		Arrays.stream(arr).forEach(t->list.add(t));
 		System.out.println(list);
 		int max=list.stream().reduce(Integer.MIN_VALUE, Integer::max);
