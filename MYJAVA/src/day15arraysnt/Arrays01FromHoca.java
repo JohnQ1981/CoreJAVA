@@ -12,32 +12,32 @@ public class Arrays01FromHoca {
 		a[2]=13;
 		a[3]=11;
 		System.out.println(Arrays.toString(a));
-		
+
 		//How to put elements in ascending order
 		Arrays.sort(a);
 		System.out.println(Arrays.toString(a));
-		
+
 		//Type a program to add all elements in the array "a"
 		int sum = 0;
 		for(int i=0; i<a.length; i++) {
 			sum = sum + a[i];
 		}
 		System.out.println("Sum: " + sum);
-		
-		
+
+
 		//Create a char array which has 6 elements with second way
 		char b[] = {'a', 'd', 'A', 'b', 'c', 'D'};
 		System.out.println(Arrays.toString(b));
 		Arrays.sort(b);
 		System.out.println(Arrays.toString(b));
-		
+
 		//Type a program to concatenate the elements in the array "b"
 		String concat = "";
 		for(int i=0; i<b.length; i++) {
 			concat = concat + b[i];
 		}
 		System.out.println("Concatenated: " + concat);
-		
+
 		String c[] = {"Ali", "John", "ALI", "Brad", "Mary", "Angie"};
 		System.out.println(Arrays.toString(c));
 		Arrays.sort(c);//[ALI, Ali, Angie, Brad, John, Mary]
@@ -48,14 +48,14 @@ public class Arrays01FromHoca {
 				System.out.print(c[i] + " ");
 			}
 		}
-		
+
 		//How to check if a specific element exists in the array or not
-		
+
 		//To check if an element exists in an array or not we use "binarySearch()"
 		//Be Careful!!! ==> Before using "binarySearch()" method you HAVE TO use sort()
 		//If you use "binarySearch()" without using sort(), you will get a result but 
 		//it will not be meaningful
-		
+
 		int d[] = {3, 5, 2, 12, 4, 3, 6};
 		//Check if 12 exists in the array "d"
 		Arrays.sort(d);
@@ -69,6 +69,9 @@ public class Arrays01FromHoca {
 		//binarySearch() method cannot be used repeated elements, you can get some output but
 		//it is not meaningful
 		System.out.println(Arrays.binarySearch(d, 3));
+		String arr2[]= {"hon","john","ikram"};
+		Arrays.sort(arr2);
+		System.out.println(Arrays.binarySearch(arr2, "hon")+"<====");
 
 	}
 
